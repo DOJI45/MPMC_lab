@@ -8,7 +8,7 @@ NUMS DB 10H,20H,30H,40H,50H,60H,70H,80H,90H,92H
 KEY DB 50H
 POS DB '0','$'
 
-MSG1 DB 10,13,  "KEY FOUND AT: $"
+MSG1 DB 10,13,  "KEY FOUND AT: $"  ; $ sign to terminate the string
 MSG2 DB 10,13,  "KEY NOT FOUND $"
 
 .CODE
